@@ -1,6 +1,6 @@
 # npmtest-selectize
 
-#### test coverage for  [selectize (v0.12.4)](https://github.com/selectize/selectize.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-selectize.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-selectize) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-selectize.svg)](https://travis-ci.org/npmtest/node-npmtest-selectize)
+#### basic test coverage for  [selectize (v0.12.4)](https://github.com/selectize/selectize.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-selectize.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-selectize) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-selectize.svg)](https://travis-ci.org/npmtest/node-npmtest-selectize)
 
 #### Selectize is a jQuery-based custom <select> UI control. Useful for tagging, contact lists, country selectors, etc.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-selectize/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-selectize/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-selectize/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-selectize/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-selectize/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-selectize/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-selectize/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-selectize/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-selectize/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-selectize/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-selectize/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-selectize/build/coverage.html/index.html)
 
@@ -112,7 +112,8 @@
     "scripts": {
         "test": "./node_modules/karma/bin/karma start"
     },
-    "version": "0.12.4"
+    "version": "0.12.4",
+    "bin": {}
 }
 ```
 
